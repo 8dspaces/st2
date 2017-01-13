@@ -44,6 +44,8 @@ in development
   auth backend issues related to typos, misconfiguration and similar. (improvement)
 * Fix how mistral client and resource managers are being used in the mistral runner. Authentication
   has changed in the mistral client. Fix unit test accordingly. (bug fix)
+* Use the newly introduced CANCELLED state in mistral for workflow cancellation. Currently, st2
+  put the workflow in a PAUSED state in mistral. (improvement)
 
 2.1.1 - December 16, 2016
 -------------------------
